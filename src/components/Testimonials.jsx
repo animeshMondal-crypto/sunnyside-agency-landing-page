@@ -1,11 +1,11 @@
 function Testimonials() {
   return (
-    <div className="px-10 py-28 flex flex-col gap-20 justify-center items-center">
-      <h1 className="font-bold text-3xl uppercase font-[Fraunces] text-slate-400 tracking-[0.4rem]">
+    <div className="px-10 lg:py-28 py-20 flex flex-col gap-20 justify-center items-center">
+      <h1 className="font-bold lg:text-3xl text-xl uppercase font-[Fraunces] text-slate-400 lg:tracking-[0.4rem] tracking-widest">
         client testimonials
       </h1>
-      <div className="flex gap-5 w-full justify-center items-center">
-        <div className="flex flex-col justify-center items-center gap-10 w-[30%]">
+      <div className="flex lg:flex-row flex-col lg:gap-5 gap-8 w-full justify-center items-center">
+        <div className="flex flex-col justify-center items-center gap-10 lg:w-[30%]">
           <img
             className="h-16 rounded-full w-fit"
             src="/images/image-emily.jpg"
@@ -22,7 +22,7 @@ function Testimonials() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-10 w-[30%]">
+        <div className="flex flex-col justify-center items-center gap-10 lg:w-[30%]">
           <img
             className="h-16 rounded-full w-fit"
             src="/images/image-thomas.jpg"
@@ -39,7 +39,7 @@ function Testimonials() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col justify-center items-center gap-10 w-[30%]">
+        <div className="flex flex-col justify-center items-center gap-10 lg:w-[30%]">
           <img
             className="h-16 rounded-full w-fit"
             src="/images/image-jennie.jpg"

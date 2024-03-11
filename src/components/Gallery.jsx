@@ -1,6 +1,6 @@
 function Gallery() {
   return (
-    <div className="grid lg:grid-cols-4 md:grid-cols-2">
+    <div className="grid lg:grid-cols-4 grid-cols-2">
       <div>
         <img
           src="/images/desktop/image-gallery-milkbottles.jpg"
