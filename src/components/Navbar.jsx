@@ -4,7 +4,7 @@ function Navbar() {
       <h1 className="text-white font-bold text-3xl cursor-pointer font-[Barlow]">
         sunnyside
       </h1>
-      <div className="lg:flex gap-5 font-[Barlow] hidden">
+      <div className="lg:flex justify-end gap-5 font-[Barlow] hidden">
         <a
           className="px-5 py-3 font-semibold rounded-md text-white hover:bg-white/20"
           href="#"
@@ -27,9 +27,9 @@ function Navbar() {
           contact
         </button>
       </div>
-      <div>
+      <div className="lg:hidden">
         <img
-          className="lg:hidden block cursor-pointer"
+          className="cursor-pointer"
           src="/images/icon-hamburger.svg"
           alt="humburger"
         />
