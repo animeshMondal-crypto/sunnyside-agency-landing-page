@@ -45,7 +45,7 @@ function Services() {
           </button>
         </div>
       </div>
-      <div className="lg:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-[url('/images/mobile/image-graphic-design.jpg')] bg-no-repeat bg-contain lg:py-[290px] py-[300px] flex flex-col justify-end items-center relative">
+      <div className="lg:bg-[url('/images/desktop/image-graphic-design.jpg')] bg-[url('/images/mobile/image-graphic-design.jpg')] bg-no-repeat bg-contain lg:py-[280px] py-[300px] flex flex-col justify-end items-center relative">
         <div className="absolute lg:w-2/3 flex flex-col justify-center items-center gap-5 lg:pt-52 px-10 bottom-12">
           <h1 className="text-3xl font-bold font-[Fraunces] text-teal-900">
             Graphic Design
@@ -57,7 +57,7 @@ function Services() {
           </p>
         </div>
       </div>
-      <div className="lg:bg-[url('/images/desktop/image-photography.jpg')] bg-[url('/images/mobile/image-photography.jpg')] bg-no-repeat bg-contain lg:py-[290px] py-[300px] flex flex-col justify-end items-center relative">
+      <div className="lg:bg-[url('/images/desktop/image-photography.jpg')] bg-[url('/images/mobile/image-photography.jpg')] bg-no-repeat bg-contain lg:py-[100px] py-[300px] flex flex-col justify-end items-center relative">
         <div className="absolute lg:w-[60%] flex flex-col justify-center items-center gap-5 lg:pt-52 px-10 bottom-14">
           <h1 className="text-3xl font-bold font-[Fraunces] text-blue-900">
             Photography
