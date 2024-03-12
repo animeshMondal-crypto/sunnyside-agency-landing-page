@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="lg:px-10 px-8 pt-5 lg:pb-16 pb-52 flex items-center justify-between">
+    <nav className="lg:px-10 px-8 pt-5 lg:pb-20 pb-32 flex items-center justify-between">
       <h1 className="text-white font-bold text-3xl cursor-pointer font-[Barlow]">
         sunnyside
       </h1>
@@ -27,9 +27,9 @@ function Navbar() {
           contact
         </button>
       </div>
-      <div>
+      <div className="lg:hidden">
         <img
-          className="lg:hidden block cursor-pointer"
+          className="cursor-pointer"
           src="/images/icon-hamburger.svg"
           alt="humburger"
         />
